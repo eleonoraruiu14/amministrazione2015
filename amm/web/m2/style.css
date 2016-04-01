@@ -14,30 +14,39 @@ color:black;}
 
 h1 {
     font-family: Algerian;
-    color: red;
+    color: #CC66CC;
     text-align: center;
-text-decoration: underline;}
+    font-size: 200%;
+    text-decoration: underline;}
 
-h2{color:blue;
-   font-style: italic;
-   font-family: Comic sans ms ;}
+h2{
+    color:#FF6666;
+    font-style: italic;
+    font-family: Gabriola normale;}
 
-h3{color: #990099;}
+h3{
+    color: #990099;}
 
-p{  text-indent: 510px;
+p{  
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
     font-family: Gabriola normale; }
 
-a:hover { color: #CC33FF;
-font-weight: bold;}
+a:hover { 
+    color: #CC33FF;
+    font-weight: bold;}
 
-label{  color:#3366CC;
+label{  
+        color:#3366CC;
         font-weight: bold;
         font-style: italic;
         text-decoration: underline;
         display: block; /* centra testo */
         float: left;}
 
-input{  background: #FFFF99; /* Colore di sfondo */
+input{  
+        background: #FFFF99; /* Colore di sfondo */
         border: 1px solid; /* Bordo */
         color: black; /* Colore del testo */
         height: 15px; /* Altezza */
@@ -45,8 +54,20 @@ input{  background: #FFFF99; /* Colore di sfondo */
         width: 300px; /* Larghezza */
         border-collapse: collapse;}
 
-textarea{   background: #FFFF99; /* Colore di sfondo */
+textarea{   
+            background: #FFFF99; /* Colore di sfondo */
             border: 1px solid; /* Bordo */
             color: black; /* Colore del testo */
             border-collapse: collapse;}
+
+.linklogin {
+            text-align: center;}
+
+.linkutili {
+            text-align: center;}
+.linkutilicliente {
+            text-align: center;}
+.linkutilivenditore {
+            text-align: center;}
+
 
