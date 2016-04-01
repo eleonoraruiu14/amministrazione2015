@@ -8,42 +8,42 @@ and open the template in the editor.
     Author     : Ele
 */
 
-body {background: #FFFF66;
-font-family: "Arial", glider girls, times new romance;
+body {background: #FFFF66;      /* Colore sfondo */
+font-family: "Arial", glider girls, times new romance; /* font del body */
 color:black;}
 
 h1 {
-    font-family: Algerian;
-    color: #CC66CC;
-    text-align: center;
+    font-family: Algerian;      /* font di h1 */
+    color: #CC66CC;     /* Colore del testo */
+    text-align: center;     /* allineamento centrato */
     font-size: 200%;
-    text-decoration: underline;}
+    text-decoration: underline;}    /* sottolineato */
 
 h2{
-    color:#FF6666;
-    font-style: italic;
+    color:#FF6666;      /* Colore del testo */
+    font-style: italic;     /* font di h2 */
     font-family: Gabriola normale;}
 
 h3{
-    color: #990099;}
+    color: #990099;}    /* Colore del testo */
 
 p{  
-    text-align: center;
-    font-style: italic;
+    text-align: center;     /* allineamento centrato */
+    font-style: italic;     /* font del paragrafo */
     font-size: 150%;
-    font-family: Gabriola normale; }
+    font-family: Gabriola normale; }        /* font di p */
 
 a:hover { 
-    color: #CC33FF;
+    color: #CC33FF; /* Colore del testo */
     font-weight: bold;}
 
 label{  
-        color:#3366CC;
-        font-weight: bold;
-        font-style: italic;
-        text-decoration: underline;
+        color:#3366CC;  /* Colore del testo */
+        font-weight: bold;  /* grassetto */
+        font-style: italic; /* font */
+        text-decoration: underline;     /* sottolineato */
         display: block; /* centra testo */
-        float: left;}
+        float: left;  }
 
 input{  
         background: #FFFF99; /* Colore di sfondo */
@@ -61,13 +61,14 @@ textarea{
             border-collapse: collapse;}
 
 .linklogin {
-            text-align: center;}
+            text-align: center;}    /* Centrare i link di login */
 
 .linkutili {
-            text-align: center;}
+            text-align: center;}    /* Centrare i link di descrizione */
 .linkutilicliente {
-            text-align: center;}
+            text-align: center;}    /* Centrare i link di cliente */
 .linkutilivenditore {
-            text-align: center;}
+            text-align: center;} /* centrare i link di venditore */ 
+
 
 
