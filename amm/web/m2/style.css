@@ -9,6 +9,29 @@ and open the template in the editor.
 */
 
 body {background: #FFFF66;
-font-family: "Comic sans ms", glider girls, times new romance;
+font-family: "Arial", glider girls, times new romance;
 color:black;}
-h1 {}
+h1 {
+    font-family: Algerian;
+    color: red;
+    text-align: center;
+text-decoration: underline;}
+h2{color:blue;
+   font-style: italic;
+   font-family: Comic sans ms ;}
+h3{color: #990099;}
+
+a:hover { color: black;
+font-weight: bold;}
+label{ font-weight: bold;
+       font-style: italic;
+       text-decoration: underline;
+        display: block; /* centra testo */
+        float: left;}
+input, textarea { background: #FFFF99; /* Colore di sfondo */
+    border: 1px solid; /* Bordo */
+    color: black; /* Colore del testo */
+    height: 20px; /* Altezza */
+    line-height: 25px; /* Altezza di riga */
+    width: 300px; /* Larghezza */
+}
