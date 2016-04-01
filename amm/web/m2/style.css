@@ -70,5 +70,16 @@ textarea{
 .linkutilivenditore {
             text-align: center;} /* centrare i link di venditore */ 
 
+table {
+    border: 3px solid #FF6600;
+    background-color: #FF6600;/* bordo tabella */
+    color: #6666FF; /* colore intestazione tabella  */ 
+}
+ 
+tr {
+    text-align: center;
+    background-color: #FFFFCC; /* sfondo tabella */ 
+}
 
+td { color:#330099; } /* colore scritte intero tabella */ 
 
