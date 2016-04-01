@@ -24,7 +24,8 @@ h2{color:blue;
 
 h3{color: #990099;}
 
-p{ align-content: center;}
+p{  text-indent: 510px;
+    font-family: Gabriola normale; }
 
 a:hover { color: #CC33FF;
 font-weight: bold;}
