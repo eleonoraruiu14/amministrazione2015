@@ -71,22 +71,21 @@ textarea{
             text-align: center;} /* centrare i link di venditore */ 
 
 table {
-    border: 3px solid #FF6600;
-    background-color: #FF6600;/* bordo tabella */
-    color: #FF99CC; /* colore intestazione tabella  */ 
+    border: 5px solid black;
+    background-color: black ;/* bordo tabella */
     align-content: center; /* centrare intestazione tabella  */ 
-    font-family: Comics sans ms; 
-}
- 
+     }
+
 tr { /* intestazione */
     font-family: arial;
     text-align: center;
-    background-color: khaki;
+    color: white;/* colore intestazione tabella  */ 
 }
 
 td { /* dati tabella */
-    background-color:green;/* colore scritte intero tabella */ 
-    font-family: arial
-    
-}
+    background-color:  #969696  ;/* colore scritte intero tabella */ 
+    font-family: Comics sans ms;
+    color: #0000FF;
+    }
+
 
