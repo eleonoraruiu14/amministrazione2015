@@ -74,12 +74,19 @@ table {
     border: 3px solid #FF6600;
     background-color: #FF6600;/* bordo tabella */
     color: #FF99CC; /* colore intestazione tabella  */ 
+    align-content: center; /* centrare intestazione tabella  */ 
+    font-family: Comics sans ms; 
 }
  
-tr {
+tr { /* intestazione */
+    font-family: arial;
     text-align: center;
-    background-color: #FFFFCC; /* sfondo tabella */ 
+    background-color: khaki;
 }
 
-td { color:#330099; } /* colore scritte intero tabella */ 
+td { /* dati tabella */
+    background-color:green;/* colore scritte intero tabella */ 
+    font-family: arial
+    
+}
 
