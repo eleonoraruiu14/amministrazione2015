@@ -81,7 +81,7 @@ textarea{
 
 table {
     border: 0px solid;
-    background-color: black ;/* bordo tabella */
+    background-color: black ;/*  bordo tabella */
     align-content: center; /* centrare intestazione tabella  */ 
 
      }
@@ -90,7 +90,7 @@ tr { /* intestazione */
     font-family: arial;
     text-align: center;
     color: white;/* testo intestazione tabella  */ 
-    background-color: pink ;/* sfondo intestazione tabella  */ 
+    background-color: pink ; /*sfondo intestazione tabella  */ 
 }
 
 td { /* dati tabella */
@@ -99,4 +99,5 @@ td { /* dati tabella */
     color: blue ; /*scritta interna della tabella */
     }
     
-    
+.idpari {background-color:white; }
+
