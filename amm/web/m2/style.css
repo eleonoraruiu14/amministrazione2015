@@ -43,8 +43,8 @@ label{
         font-style: italic; /* font */
         text-decoration: underline;     /* sottolineato */
         display: block; /* centra testo */
-        float: left;  }
-
+        float: left; 
+}
 input{  
         background: #FFFF99; /* Colore di sfondo */
         border: 1px solid; /* Bordo */
@@ -60,6 +60,15 @@ textarea{
             color: black; /* Colore del testo */
             border-collapse: collapse;}
 
+    label, input{           /*input label allineati!!!!!!!!!!!!!!!!*/
+        display: block;
+        width: 150px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    
+    input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input rimane in risalto*/
+    
 .linklogin {
             text-align: center;}    /* Centrare i link di login */
 
@@ -71,21 +80,23 @@ textarea{
             text-align: center;} /* centrare i link di venditore */ 
 
 table {
-    border: 5px solid black;
+    border: 0px solid;
     background-color: black ;/* bordo tabella */
     align-content: center; /* centrare intestazione tabella  */ 
+
      }
 
 tr { /* intestazione */
     font-family: arial;
     text-align: center;
-    color: white;/* colore intestazione tabella  */ 
+    color: white;/* testo intestazione tabella  */ 
+    background-color: pink ;/* sfondo intestazione tabella  */ 
 }
 
 td { /* dati tabella */
-    background-color:  #969696  ;/* colore scritte intero tabella */ 
+    background-color: gray ; /* colore celle intero tabella */ 
     font-family: Comics sans ms;
-    color: #0000FF;
+    color: blue ; /*scritta interna della tabella */
     }
-
-
+    
+    
