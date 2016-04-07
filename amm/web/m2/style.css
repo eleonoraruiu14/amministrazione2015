@@ -80,24 +80,28 @@ textarea{
             text-align: center;} /* centrare i link di venditore */ 
 
 table {
-    border: 0px solid;
-    background-color: black ;/*  bordo tabella */
+    border: 1px solid black;
+    background-color: #FFFF33 ; /* bordo tabella */
     align-content: center; /* centrare intestazione tabella  */ 
-
-     }
+        }
 
 tr { /* intestazione */
     font-family: arial;
     text-align: center;
-    color: white;/* testo intestazione tabella  */ 
-    background-color: pink ; /*sfondo intestazione tabella  */ 
+    color: black;/* testo intestazione tabella  */ 
+  /*  background-color: pink ; /*sfondo intestazione tabella  */ 
 }
 
 td { /* dati tabella */
-    background-color: gray ; /* colore celle intero tabella */ 
+  /*  background-color: gray ; /* colore celle intero tabella */ 
     font-family: Comics sans ms;
     color: blue ; /*scritta interna della tabella */
+    border: 1px solid black; /*bordi colonne della tabella */
     }
     
-.idpari {background-color:white; }
+th {width: 200px;/*gestire la larghezza delle colonne della tabella */
+    }
 
+tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della tabella */
+
+.formlogin
