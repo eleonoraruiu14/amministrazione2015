@@ -37,38 +37,6 @@ a:hover {
     color: #CC33FF; /* Colore del testo */
     font-weight: bold;}
 
-label{  
-        color:#3366CC;  /* Colore del testo */
-        font-weight: bold;  /* grassetto */
-        font-style: italic; /* font */
-        text-decoration: underline;     /* sottolineato */
-        display: block; /* centra testo */
-        float: left; 
-}
-input{  
-        background: #FFFF99; /* Colore di sfondo */
-        border: 1px solid; /* Bordo */
-        color: black; /* Colore del testo */
-        height: 15px; /* Altezza */
-        line-height: 20px; /* Altezza di riga */
-        width: 300px; /* Larghezza */
-        border-collapse: collapse;}
-
-textarea{   
-            background: #FFFF99; /* Colore di sfondo */
-            border: 1px solid; /* Bordo */
-            color: black; /* Colore del testo */
-            border-collapse: collapse;}
-
-    label, input{           /*input label allineati!!!!!!!!!!!!!!!!*/
-        display: block;
-        width: 150px;
-        float: left;
-        margin-bottom: 10px;
-    }
-    
-    input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input rimane in risalto*/
-    
 .linklogin {
             text-align: center;}    /* Centrare i link di login */
 
@@ -104,4 +72,28 @@ th {width: 200px;/*gestire la larghezza delle colonne della tabella */
 
 tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della tabella */
 
-.formlogin
+input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input rimane in risalto*/
+
+.formlogin{ 
+            text-align: center;
+            display: block;
+            font-size: 180%;
+            margin-top: 50px;
+            
+}
+#pswd, #corto {margin-bottom: 50px;}
+
+#bottonelogin{ display: block;
+                margin-left: 620px;
+                width: 100px;
+                height: 100px;
+                font-family: "Comics sans";
+                font-size: 150%;
+                color:#FF0040;
+                
+}
+input{width: 250px;
+height: 40px;}
+
+label{ color: #FF4000;
+display: block;}
