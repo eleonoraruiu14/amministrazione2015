@@ -74,6 +74,8 @@ tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della 
 
 input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input rimane in risalto*/
 
+textarea:focus{ border: 3px solid;}
+
 .formlogin{ 
             text-align: center;
             display: block;
@@ -90,10 +92,35 @@ input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input 
                 font-family: "Comics sans";
                 font-size: 150%;
                 color:#FF0040;
-                
+                border-radius: 25px;
 }
-input{width: 250px;
-height: 40px;}
 
-label{ color: #FF4000;
-display: block;}
+input{      width: 250px;
+            height: 40px;
+            border-color: #31B404; }
+
+label{      color: #FF4000;
+            display: block;}
+
+textarea{   border-color: #31B404; }
+
+.formvenditore{ text-align: center;
+                display: block;
+                font-size: 180%;
+                margin-top: 50px;}
+
+#bottonevenditore{ 
+                display: block;
+                margin-left: 620px;
+                width: 100px;
+                height: 100px;
+                font-family: "Comics sans";
+                font-size: 90%;
+                color:#FF0040;
+                border-radius: 25px;}
+
+.formvenditore input{margin-bottom: 50px;}
+
+#descrizioneogg {width: 500px;
+                height: 150px;}
+

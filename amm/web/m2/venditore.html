@@ -26,30 +26,31 @@ and open the template in the editor.
         <br>
         
         <form action="venditore.html" method="post">            <!-- creare form per inserire oggetto, url dell'immagine, descizione, prezzo e quantità in vendita -->
+            <div class="formvenditore">
             <label for="nomeoggetto"> Nome dell'oggetto: </label>
           <input type="text" name="nomeoggetto"
             id="nomeoggetto" /> 
-            <br>
+            
             <label for="urlimmagineoggetto"> Inserisci URL dell'immagine: </label>
           <input type="text" name="urlimmagineoggetto"
                    id="urlimmagineoggetto" />
-            <br>
+            
             <label for="descrizioneogg"> Descrizione dell' oggetto: </label>
             <textarea rows="4" cols="20" 
                       name="descrizioneogg" id="descrizioneogg">
             </textarea>
-                 <br>
+                
             <label for="prezzo"> Inserisci il prezzo dell'oggetto: </label>
             <input type="text" name="prezzo"
             id="prezzo"  />
-            <br>
+            
             <label for="quantitadisponibili"> Inserisci la quantità a disposizione: </label>
             <input type="text" name="quantitadisponibili"
             id="quantitadisponibili"/>
-            </form>  
-            <br>
-            <button type="submit"> Inserisci  </button>       <!-- creazione di un bottone per inserire i dati di vendita -->  
-            <br>
-              
+            
+            
+            <button type="submit" id="bottonevenditore"> Inserisci  </button>       <!-- creazione di un bottone per inserire i dati di vendita -->  
+            </div>
+             </form>  
         </body> 
 </html>
