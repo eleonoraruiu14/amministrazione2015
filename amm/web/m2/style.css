@@ -15,7 +15,7 @@ body {
 }
 
 
-@media only screen and (min-width: 1024px) /* per schermi superiori ai 1024 */
+@media only screen and (min-width: 1024px) /* per schermi superiori ai 1024 grande  */
 {
     .header{ 
         width: auto;
@@ -81,7 +81,8 @@ a:hover {
 table {
     border: 1px solid black;
     background-color: #FFFF33 ; /* bordo tabella */
-    align-content: center; /* centrare intestazione tabella  */ 
+    align-content: center; /* centrare intestazione tabella  */
+    margin:auto;
         }
 
 tr { /* intestazione */
@@ -163,13 +164,13 @@ textarea{   /* Colore del bordo della test area*/
                             margin-bottom: 50px;
 }
 
-#descrizioneogg {width: 500px;
+#descrizioneogg {width: 80%;
                 height: 150px;
                 border:2px solid #31B404;
                 border-style: outset;}
 }
 
-@media only screen and (min-width:481px) and (max-width:1023px)
+@media only screen and (min-width:481px) and (max-width:1023px) /*schermo medio */
 {
      .header{ 
         width: auto;
@@ -307,14 +308,14 @@ textarea{   /* Colore del bordo della test area*/
 }
 
 #descrizioneogg {
-                width: 500px;
-                height: 150px;
+                width: 80%;
+                height: 130px;
                 border:2px solid #31B404;
                 border-style: outset;}
 
 }
 
-@media only screen and (max-width:480px)
+@media only screen and (max-width:480px) /*schermo piccolo*/
 {
      .header{ 
         width: auto;
@@ -376,16 +377,19 @@ tr { /* intestazione */
     font-family: arial;
     text-align: center;
     color: black;/* testo intestazione tabella  */ 
+    width: 1000px;
 }
 
 td { /* dati tabella */
     font-family: Comics sans ms;
     color: blue ; /*scritta interna della tabella */
     border: 1px solid black; /*bordi colonne della tabella */
+    display: block;
+    
     }
     
-th {width: 200px;/*gestire la larghezza delle colonne della tabella */
-    }
+th {
+    display: none;}
 
 tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della tabella */
 
@@ -452,11 +456,12 @@ textarea{   /* Colore del bordo della test area*/
 }
 
 #descrizioneogg {
-                width: 500px;
-                height: 150px;
+                width: 80%;
+                height: 20%;
                 border:2px solid #31B404;
                 border-style: outset;}
-#foto{display:none;}
-.immagine{ display: none;}
+
+/* #foto{display:none;}
+.immagine{ display: none;} */
 }
 
