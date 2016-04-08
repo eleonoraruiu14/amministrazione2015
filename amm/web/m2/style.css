@@ -15,9 +15,161 @@ body {
 }
 
 
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 1024px) /* per schermi superiori ai 1024 */
 {
     .header{ 
+        width: auto;
+        height: 220px;
+         }
+         
+.fotosinistra{
+         background-image: url('./sfondo/a.jpg');
+         background-repeat: no-repeat ;
+         background-size: 130%;
+         width: 200px;
+         height: 200px;
+         float: left;}
+         
+.fotodestra{
+         background-image: url('./sfondo/b.jpg');
+         background-repeat: no-repeat ;
+         background-size: 100%;
+         width: 200px;
+         height: 200px;
+         float:right;
+    
+}
+h1 {
+    font-family: Algerian;      /* font di h1 */
+    color: #CC66CC;     /* Colore del testo */
+    margin: auto;    /* allineamento centrato */
+    font-size: 200%;
+    text-decoration: underline;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}    
+
+h2{
+    color:#FF6666;      /* Colore del testo */
+    font-style: italic;     /* font di h2 */
+    font-family: Gabriola normale;}
+
+h3{
+    color: #990099;}    /* Colore del testo */
+
+p{  
+    text-align: center;     /* allineamento centrato */
+    font-style: italic;     /* font del paragrafo */
+    font-size: 150%;
+    font-family: Gabriola normale; }        /* font di p */
+
+a:hover { 
+    color: #CC33FF; /* Colore del testo */
+    font-weight: bold;}
+
+.linklogin {
+            text-align: center;}    /* Centrare i link di login */
+
+.linkutili {
+            text-align: center;}    /* Centrare i link di descrizione */
+.linkutilicliente {
+            text-align: center;}    /* Centrare i link di cliente */
+.linkutilivenditore {
+            text-align: center;} /* centrare i link di venditore */ 
+
+table {
+    border: 1px solid black;
+    background-color: #FFFF33 ; /* bordo tabella */
+    align-content: center; /* centrare intestazione tabella  */ 
+        }
+
+tr { /* intestazione */
+    font-family: arial;
+    text-align: center;
+    color: black;/* testo intestazione tabella  */ 
+}
+
+td { /* dati tabella */
+    font-family: Comics sans ms;
+    color: blue ; /*scritta interna della tabella */
+    border: 1px solid black; /*bordi colonne della tabella */
+    }
+    
+th {width: 200px;/*gestire la larghezza delle colonne della tabella */
+    }
+
+tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della tabella */
+
+input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input rimane in risalto*/
+
+textarea:focus{ border: 3px solid;} /*focus che quando selezioni una casella input (textarea) rimane in risalto*/
+
+.formlogin{                     /* gestione di label e input del login*/
+            text-align: center;         
+            display: block;
+            font-size: 180%;            
+            margin-top: 50px;
+            
+}
+#pswd, #corto {              /* margine di distanza tra le cazselle nel login*/
+                 margin-bottom: 50px;
+}        
+
+#bottonelogin{              /* gestione del bottone del login*/  
+                display: block;        
+                margin-left: 620px;
+                width: 100px;
+                height: 100px;
+                font-family: "Comics sans";
+                font-size: 150%;
+                color:#FF0040;
+                border-radius: 25px;
+}
+
+input{     /* colore lunghezza e altezza degli input*/
+            width: 250px; 
+            height: 40px;
+            border-color: #31B404; 
+}
+
+label{      /* colore dei label*/
+            color: #FF4000;
+            display: block;
+}
+
+textarea{   /* Colore del bordo della test area*/
+            border-color: #31B404; 
+}
+
+.formvenditore{ /* gestione di label e input nella pagina venditore*/
+                text-align: center;
+                display: block;
+                font-size: 180%;
+                margin-top: 50px;
+}
+
+#bottonevenditore{           /* gestione del bottone della pagina venditore*/
+                display: block;
+                margin-left: 620px;
+                width: 100px;
+                height: 100px;
+                font-family: "Comics sans";
+                font-size: 90%;
+                color:#FF0040;
+                border-radius: 25px;}
+
+.formvenditore input{
+                            margin-bottom: 50px;
+}
+
+#descrizioneogg {width: 500px;
+                height: 150px;}
+}
+
+@media only screen and (min-width:481 px ) and (max-width:1023px )
+{
+     .header{ 
         width: auto;
         height: 220px;
          }
