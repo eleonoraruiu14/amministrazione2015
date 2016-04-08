@@ -8,15 +8,15 @@ and open the template in the editor.
     Author     : Ele
 */
 
-body {background: #FFFF66;      /* Colore sfondo */
-font-family: "Arial", glider girls, times new romance; /* font del body */
-color:black;}
+body {
+        background: #FFFF66;      /* Colore sfondo */
+        font-family: "Arial", glider girls, times new romance; /* font del body */
+        color:black;
+}
 
 .header{ 
-       
         width: auto;
         height: 220px;
-        
          }
          
 .fotosinistra{
