@@ -12,12 +12,18 @@ body {background: #FFFF66;      /* Colore sfondo */
 font-family: "Arial", glider girls, times new romance; /* font del body */
 color:black;}
 
-.header{ background-image: url('./sfondo/a.jpg');
+.header{ 
+         background-image: url('./sfondo/a.jpg');
          background-repeat: no-repeat ;
-         background-color: white;
-         background-size: 50%;
-         
-        }
+         background-size: 18%;
+         }
+.fotodestra{
+         background-image: url('./sfondo/b.jpg');
+         background-repeat: no-repeat ;
+         background-size: 18%;
+         text-align: right;
+    
+}
 h1 {
     font-family: Algerian;      /* font di h1 */
     color: #CC66CC;     /* Colore del testo */
