@@ -13,23 +13,39 @@ font-family: "Arial", glider girls, times new romance; /* font del body */
 color:black;}
 
 .header{ 
+       
+        width: auto;
+        height: 220px;
+        
+         }
+         
+.fotosinistra{
          background-image: url('./sfondo/a.jpg');
          background-repeat: no-repeat ;
-         background-size: 18%;
-         }
+         background-size: 130%;
+         width: 200px;
+         height: 200px;
+         float: left;}
+         
 .fotodestra{
          background-image: url('./sfondo/b.jpg');
          background-repeat: no-repeat ;
-         background-size: 18%;
-         text-align: right;
+         background-size: 100%;
+         width: 200px;
+         height: 200px;
+         float:right;
     
 }
 h1 {
     font-family: Algerian;      /* font di h1 */
     color: #CC66CC;     /* Colore del testo */
-    text-align: center;     /* allineamento centrato */
+    margin: auto;    /* allineamento centrato */
     font-size: 200%;
-    text-decoration: underline;}    /* sottolineato */
+    text-decoration: underline;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}    
 
 h2{
     color:#FF6666;      /* Colore del testo */
