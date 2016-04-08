@@ -335,7 +335,7 @@ h1 {
     font-size: 200%;
     text-decoration: underline;
     width: auto;
-    height: 50px;
+    height: auto;
     text-align: center;
 }    
 
@@ -370,26 +370,10 @@ a:hover {
 table {
     border: 1px solid black;
     background-color: #FFFF33 ; /* bordo tabella */
-    align-content: center; /* centrare intestazione tabella  */ 
-        }
+    width: auto;}
 
-tr { /* intestazione */
-    font-family: arial;
-    text-align: center;
-    color: black;/* testo intestazione tabella  */ 
-    width: 1000px;
-}
-
-td { /* dati tabella */
-    font-family: Comics sans ms;
-    color: blue ; /*scritta interna della tabella */
-    border: 1px solid black; /*bordi colonne della tabella */
-    display: block;
-    
-    }
-    
-th {
-    display: none;}
+td{display:block;}
+th{display: none}
 
 tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della tabella */
 
@@ -460,8 +444,5 @@ textarea{   /* Colore del bordo della test area*/
                 height: 20%;
                 border:2px solid #31B404;
                 border-style: outset;}
-
-/* #foto{display:none;}
-.immagine{ display: none;} */
 }
 
