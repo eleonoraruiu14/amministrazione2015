@@ -12,6 +12,9 @@ body {background: #FFFF66;      /* Colore sfondo */
 font-family: "Arial", glider girls, times new romance; /* font del body */
 color:black;}
 
+.header{ background-image: url('./sfondo/a.jpg');
+    
+}
 h1 {
     font-family: Algerian;      /* font di h1 */
     color: #CC66CC;     /* Colore del testo */
@@ -57,11 +60,9 @@ tr { /* intestazione */
     font-family: arial;
     text-align: center;
     color: black;/* testo intestazione tabella  */ 
-  /*  background-color: pink ; /*sfondo intestazione tabella  */ 
 }
 
 td { /* dati tabella */
-  /*  background-color: gray ; /* colore celle intero tabella */ 
     font-family: Comics sans ms;
     color: blue ; /*scritta interna della tabella */
     border: 1px solid black; /*bordi colonne della tabella */
@@ -74,18 +75,21 @@ tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della 
 
 input:focus{ border: 3px solid;} /*focus che quando selezioni una casella input rimane in risalto*/
 
-textarea:focus{ border: 3px solid;}
+textarea:focus{ border: 3px solid;} /*focus che quando selezioni una casella input (textarea) rimane in risalto*/
 
-.formlogin{ 
-            text-align: center;
+.formlogin{                     /* gestione di label e input del login*/
+            text-align: center;         
             display: block;
-            font-size: 180%;
+            font-size: 180%;            
             margin-top: 50px;
             
 }
-#pswd, #corto {margin-bottom: 50px;}
+#pswd, #corto {              /* margine di distanza tra le cazselle nel login*/
+                 margin-bottom: 50px;
+}        
 
-#bottonelogin{ display: block;
+#bottonelogin{              /* gestione del bottone del login*/  
+                display: block;        
                 margin-left: 620px;
                 width: 100px;
                 height: 100px;
@@ -95,21 +99,29 @@ textarea:focus{ border: 3px solid;}
                 border-radius: 25px;
 }
 
-input{      width: 250px; 
+input{     /* colore lunghezza e altezza degli input*/
+            width: 250px; 
             height: 40px;
-            border-color: #31B404; }
+            border-color: #31B404; 
+}
 
-label{      color: #FF4000;
-            display: block;}
+label{      /* colore dei label*/
+            color: #FF4000;
+            display: block;
+}
 
-textarea{   border-color: #31B404; }
+textarea{   /* Colore del bordo della test area*/
+            border-color: #31B404; 
+}
 
-.formvenditore{ text-align: center;
+.formvenditore{ /* gestione di label e input nella pagina venditore*/
+                text-align: center;
                 display: block;
                 font-size: 180%;
-                margin-top: 50px;}
+                margin-top: 50px;
+}
 
-#bottonevenditore{ 
+#bottonevenditore{           /* gestione del bottone della pagina venditore*/
                 display: block;
                 margin-left: 620px;
                 width: 100px;
@@ -119,8 +131,11 @@ textarea{   border-color: #31B404; }
                 color:#FF0040;
                 border-radius: 25px;}
 
-.formvenditore input{margin-bottom: 50px;}
+.formvenditore input{
+                            margin-bottom: 50px;
+}
 
 #descrizioneogg {width: 500px;
                 height: 150px;}
+
 
