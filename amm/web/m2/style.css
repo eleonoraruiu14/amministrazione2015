@@ -175,21 +175,10 @@ textarea{   /* Colore del bordo della test area*/
          }
          
 .fotosinistra{
-         background-image: url('./sfondo/a.jpg');
-         background-repeat: no-repeat ;
-         background-size: 130%;
-         width: 200px;
-         height: 200px;
-         float: left;}
+         display:none;}
          
 .fotodestra{
-         background-image: url('./sfondo/b.jpg');
-         background-repeat: no-repeat ;
-         background-size: 100%;
-         width: 200px;
-         height: 200px;
-         float:right;
-    
+         display: none;
 }
 h1 {
     font-family: Algerian;      /* font di h1 */
