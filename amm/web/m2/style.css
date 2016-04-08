@@ -13,8 +13,11 @@ font-family: "Arial", glider girls, times new romance; /* font del body */
 color:black;}
 
 .header{ background-image: url('./sfondo/a.jpg');
-    
-}
+         background-repeat: no-repeat ;
+         background-color: white;
+         background-size: 50%;
+         
+        }
 h1 {
     font-family: Algerian;      /* font di h1 */
     color: #CC66CC;     /* Colore del testo */
