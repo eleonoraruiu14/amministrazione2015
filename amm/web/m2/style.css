@@ -23,7 +23,7 @@ body {
          }
          
 .fotosinistra{
-         background-image: url('./sfondo/a.jpg');
+         background-image: url('./sfondo/a.jpg');/* visualizzazione della foto a sinistra in alto  */
          background-repeat: no-repeat ;
          background-size: 130%;
          width: 200px;
@@ -31,7 +31,7 @@ body {
          float: left;}
          
 .fotodestra{
-         background-image: url('./sfondo/b.jpg');
+         background-image: url('./sfondo/b.jpg'); /* visualizzazione della foto a destra in alto */
          background-repeat: no-repeat ;
          background-size: 100%;
          width: 200px;
@@ -39,10 +39,10 @@ body {
          float:right;
     
 }
-h1 {
-    font-family: Algerian;      /* font di h1 */
-    color: #CC66CC;     /* Colore del testo */
-    margin: auto;    /* allineamento centrato */
+h1 {                        /* allineamento colore grandezza di h1 */
+    font-family: Algerian;      
+    color: #CC66CC;     
+    margin: auto;    
     font-size: 200%;
     text-decoration: underline;
     width: 400px;
@@ -50,19 +50,19 @@ h1 {
     text-align: center;
 }    
 
-h2{
-    color:#FF6666;      /* Colore del testo */
-    font-style: italic;     /* font di h2 */
+h2{                    /* colore font e stile di h2  */       
+    color:#FF6666;      
+    font-style: italic;    
     font-family: Gabriola normale;}
 
 h3{
-    color: #990099;}    /* Colore del testo */
+    color: #990099;}    /* Colore del testo di h3 */
 
-p{  
-    text-align: center;     /* allineamento centrato */
-    font-style: italic;     /* font del paragrafo */
+p{                          /*  allineamento font e style del paragrafo */
+    text-align: center;     
+    font-style: italic;     
     font-size: 150%;
-    font-family: Gabriola normale; }        /* font di p */
+    font-family: Gabriola normale; }        
 
 a:hover { 
     color: #CC33FF; /* Colore del testo */
@@ -78,26 +78,27 @@ a:hover {
 .linkutilivenditore {
             text-align: center;} /* centrare i link di venditore */ 
 
-table {
+table {                  /* stile bordo e colore della tabella  */
     border: 1px solid black;
     background-color: #FFFF33 ; /* bordo tabella */
     align-content: center; /* centrare intestazione tabella  */
     margin:auto;
         }
 
-tr { /* intestazione */
+tr { /* intestazione della tabella */
     font-family: arial;
     text-align: center;
-    color: black;/* testo intestazione tabella  */ 
+    color: black;
 }
 
-td { /* dati tabella */
+td { /* colore e font dei dati tabella */
     font-family: Comics sans ms;
     color: blue ; /*scritta interna della tabella */
     border: 1px solid black; /*bordi colonne della tabella */
     }
     
-th {width: 200px;/*gestire la larghezza delle colonne della tabella */
+th {        /*gestire la larghezza delle colonne della tabella */
+    width: 200px;
     }
 
 tr:nth-child(even){background-color: #DCDCDC;} /*colorare la riga dispari della tabella */
@@ -113,7 +114,7 @@ textarea:focus{ border: 3px solid;} /*focus che quando selezioni una casella inp
             margin-top: 50px;
             
 }
-#pswd, #corto {              /* margine di distanza tra le cazselle nel login*/
+#pswd, #corto {              /* margine di distanza tra le caselle nel login*/
                  margin-bottom: 50px;
 }        
 
@@ -160,11 +161,12 @@ textarea{   /* Colore del bordo della test area*/
                 color:#FF0040;
                 border-radius: 25px;}
 
-.formvenditore input{
+.formvenditore input{           /* gestione form venditore  */
                             margin-bottom: 50px;
 }
 
-#descrizioneogg {width: 80%;
+#descrizioneogg {       /* altezza lunghezza e caratteristiche della text area  */
+                width: 80%;
                 height: 150px;
                 border:2px solid #31B404;
                 border-style: outset;}
@@ -177,14 +179,14 @@ textarea{   /* Colore del bordo della test area*/
         height: 220px;
          }
          
-.fotosinistra{
+.fotosinistra{          /*  eliminazione della foto a sinistra */
                 display: none;
 }
          
-.fotodestra{
+.fotodestra{            /*  eliminazione della foto a destra */
                 display: none;
 }
-h1 {
+h1 {            /* caratteristiche di h1 */
     font-family: Algerian;      /* font di h1 */
     color: #CC66CC;     /* Colore del testo */
     margin: auto;    /* allineamento centrato */
@@ -195,15 +197,15 @@ h1 {
     text-align: center;
 }    
 
-h2{
+h2{             /*  caratteristiche di h2 */
     color:#FF6666;      /* Colore del testo */
     font-style: italic;     /* font di h2 */
     font-family: Gabriola normale;}
 
-h3{
+h3{             /*  caratteristiche di h3 */
     color: #990099;}    /* Colore del testo */
 
-p{  
+p{  /*  caratteristiche el pòaragrafo */
     text-align: center;     /* allineamento centrato */
     font-style: italic;     /* font del paragrafo */
     font-size: 150%;
@@ -214,16 +216,16 @@ a:hover {
     font-weight: bold;}
 
 .linklogin {
-            text-align: center;}    /* Centrare i link di login */
+            text-align: center;}    /* Centrare i link della pagina descrizione */
 
 .linkutili {
-            text-align: center;}    /* Centrare i link di descrizione */
+            text-align: center;}    /* Centrare i link della pagina login */
 .linkutilicliente {
-            text-align: center;}    /* Centrare i link di cliente */
+            text-align: center;}    /* Centrare i link della pagina cliente */
 .linkutilivenditore {
-            text-align: center;} /* centrare i link di venditore */ 
+            text-align: center;} /* centrare i link della pagina venditore */ 
 
-table {
+table {             /*  caratteristiche tabella  */
     border: 1px solid black;
     background-color: #FFFF33 ; /* bordo tabella */
     align-content: center; /* centrare intestazione tabella  */ 
@@ -257,7 +259,7 @@ textarea:focus{ border: 3px solid;} /*focus che quando selezioni una casella inp
             margin-top: 50px;
             
 }
-#pswd, #corto {              /* margine di distanza tra le cazselle nel login*/
+#pswd, #corto {              /* margine di distanza tra le caselle nel login*/
                  margin-bottom: 50px;
 }        
 
@@ -322,13 +324,13 @@ textarea{   /* Colore del bordo della test area*/
         width: auto;
         height: 220px;
     }
-    .fotodestra{
+    .fotodestra{        /*  eliminazione della foto a destra */
         display: none;
     }
-    .fotosinistra{
+    .fotosinistra{      /*  eliminazione della foto a sinistra */
         display: none;
     }
-    h1{
+    h1{                 /*  caratteristiche font lunghezza larghezza e posizionamento di h1 */
         font-family: Algerian;
         color:#CC66CC;
         margin: auto;
@@ -338,15 +340,15 @@ textarea{   /* Colore del bordo della test area*/
         height: 50px;
         text-align: center;
     }
-    h2{
+    h2{             /*  caratteristiche colore font e stile di h2 */
         color: #FF6666;
         font-style: italic;
         font-family: gabriola normale;
     }
-    h3{
+    h3{         /*  colore di h3 */
         color: #990099;
     }
-    p{
+    p{         /*  caratteristiche testo font e stile del paragrafo */
         text-align: center;
         font-style: italic;
         font-size: 150%;
@@ -356,20 +358,20 @@ textarea{   /* Colore del bordo della test area*/
         color: #CC33FF;
         font-weight: bold;
     }
-    .linklogin{
+    .linklogin{             /*  tabulazione del link del login al centro */
         text-align: center;
     }
-    .linkutili{
+    .linkutili{             /*  tabulazione dei link del login al centro */
         text-align: center; 
     }
-    .linkutilicliente{
+    .linkutilicliente{      /*  tabulazione dei link della pagina cliente al centro */
         text-align: center;
     }
-    .linkutilivenditore{
+    .linkutilivenditore{        /*  tabulazione dei link della pagina venditore al centro */
         text-align: center;
     }
     
-    table{
+    table{              /* caratteristiche bordi e colori della tabella*/
         border:1px solid black;
         background-color: #FFFF33;
         width: 100%;
@@ -378,17 +380,20 @@ textarea{   /* Colore del bordo della test area*/
         font-family: arial;
         text-align: center;
     }
-    tr:nth-child(even){
+    tr:nth-child(even){     /* colorare le righe dispari di un altro colore*/
         background-color: #DCDCDC;
     }
-    td{
+    td{                  /*  rende la tabella in una sola colonna in modo che sia visilibe bene anche a schermo piccolo */
         display: block;
     }   
     th{
-        display: none;
+        display: none;  /*  rende la tabella in una sola colonna in modo che sia visilibe bene anche a schermo piccolo */
     }
     
-    input:focus{
+    input:focus{            /* quando viene selezionata la casella di input rimane in risalto*/
+        border:3px solid;
+    }
+    textarea:focus{         /* quando viene selezionata la text area rimane in risalto*/
         border:3px solid;
     }
     .formlogin{                     /* gestione di label e input del login*/
@@ -411,7 +416,7 @@ textarea{   /* Colore del bordo della test area*/
                 color:#FF0040;
                 border-radius: 25px;
 }
-
+ 
 input{     /* colore lunghezza e altezza degli input*/
             width: 250px; 
             height: 40px;
