@@ -5,3 +5,19 @@
  */
 package Classi;
 
+import java.util.ArrayList;
+
+public class OggettimessiinvenditaFactory {
+    private static OggettimessiinvenditaFactory singleton;
+    public static OggettimessiinvenditaFactory getInstance() {
+        if (singleton == null) {
+            singleton = new OggettimessiinvenditaFactory();
+        }
+        return singleton;
+}
+
+}
+    
+
+
+
